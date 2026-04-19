@@ -1,0 +1,28 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Algorithom_Notes"
+  text: "记录几乎从0开始的算法学习"
+  tagline: LeetCode/代码随想录 · 机试 · 算法竞赛
+  actions:
+    - theme: brand
+      text: 开始学习 →
+      link: /array/binary-search
+    - theme: alt
+      text: GitHub
+      link: https://github.com/John21-create/Algorithm_Notes
+
+
+features:
+  - title: 📝 系统化专题
+    details: 按算法分类整理，从基础到进阶
+  - title: 💻 完整代码实现
+    details: 每个算法都配有可运行的 C++ 代码
+  - title: 🎯 避坑指南
+    details: 记录每次 WA 的原因和解决方法
+  - title: 🚀 自动部署
+    details: Git Push 自动更新网站
+---
+
