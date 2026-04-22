@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: '首页', link: '/' },
       { text: '数组专题', link: '/array/binary-search' },
       { text: 'GitHub', link: 'https://github.com/John21-create/Algorithm_Notes' }
     ],
@@ -17,7 +18,8 @@ export default defineConfig({
         {
           text: '数组专题',
           items: [
-            { text: '二分查找', link: '/array/binary-search' }
+            { text: '二分查找', link: '/array/binary-search' },
+            { text: '移除元素', link: '/array/removal-element' }
           ]
         }
       ],
